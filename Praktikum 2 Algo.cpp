@@ -18,6 +18,8 @@ void insertionSort() {
             arr[j] = arr[j + 1]; //step 4a
             j = j - 1; //step 4b
         }
+
+        arr[j + 1] = temp; //step 5
     }
 }
 
